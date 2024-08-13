@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Macarena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="menu container fluid">
+                <a class="navbar-brand" style="color: rgb(255, 255, 255);">Macarena Chanampa</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionSobreMi">SOBRE MÍ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionEducacion">EDUCACIÓN</a>
+                        </li>        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">EXPERIENCIA LABORAL</a>
+                        </li>                
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionHabilidades">HABILIDADES</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionProyectos">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionContacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="seccion-presentacion row">
+            <div class="col imagen">
+                <img src="./resource/fotoCV.png" />
+            </div>
+
+            <div class="col texto-seccion-sobre-mi">
+                <h1>Estudiante de la Tecnicatura Universitaria en programación de la UTN Facultad Regional Avellaneda</h1>
+            </div>
+        </div>
+
+        <div class="seccion-sobre-mi" id="seccionSobreMi">
+            <h1>SOBRE MÍ</h1>
+            <img class="imagen-sobre-mi" src="./resource/foto2CV.png"/>
+        </div>
+
+        <div class="seccion-educacion" id="seccionEducacion">
+            <h1>EDUCACIÓN</h1>
+            <div class="educacion-completa">
+                <div class="educacion-carrera">
+                    <h3>CARRERA</h3>
+                    <img src="./resource/fotoCarrera.png"/>
+                </div>
+                <div class="educacion-cursos">
+                    <h3>CURSOS</h3>
+                    <img src="./resource/fotoCursos.png"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-habilidades" id="seccionHabilidades">
+            <div class="texto-seccion-habilidades">
+                <h1>HABILIDADES</h1>
+            </div>
+            <div class="row habilidades-lenguajes">
+                <div class="habilidades-css col">
+                    <img src="./icons/css-3.png"/>
+                    <h3>css 3</h3>
+                </div>
+                <div class="habilidades-Csharp col">
+                    <img src="./icons/icons8-c-sharp-logotipo-50.png"/>
+                    <h3>C sharp</h3>
+                </div>
+                <div class="habilidades-git col">
+                    <img src="./icons/icons8-git-48.png"/>
+                    <h3>git</h3>
+                </div>
+                <div class="habilidades-java col">
+                    <img src="./icons/icons8-logotipo-de-java-coffee-cup-48.png"/>
+                    <h3>java</h3>
+                </div>
+                <div class="habilidades-html col">
+                    <img src="./icons/logotipo-html-5.png"/>
+                    <h3>html 5</h3>
+                </div>
+                <div class="habilidades-pithon col">
+                    <img src="./icons/icons8-python-48.png"/>
+                    <h3>pithon</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-proyectos" id="seccionProyectos">
+            <div class="texto-seccion-proyectos">
+                <h1>PROYECTOS</h1>
+            </div>
+
+            <div class="proyectos-general">
+
+                <div class="row seccion-proyectos-uno">
+        
+                    <div class="col">
+                        <div class="card" style="width: 30rem;">
+                            <img src="./resource-proyects/proyect-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Plantas y Flores</h5>
+                              <p class="card-text">el objetivo es informar sobre las plantas importantes de la argentina</p>
+                              <a href="https://github.com/macachana/Plantas-y-Flores.git" class="btn btn-primary stretched-link">ir al proyecto en github</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card" style="width: 30rem;">
+                            <img src="./resource-proyects/proyect-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Encuentra la palabra</h5>
+                              <p class="card-text">es un juego que consiste en armar 15 palabras antes de que se acabe el tiempo</p>
+                              <a href="https://github.com/macachana/Descubre_palabras_UTN.git" class="btn btn-primary stretched-link">ir al proyecto en github</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div class="row seccion-proyectos-dos">
+                    <div class="col">
+                        <div class="card" style="width: 30rem;" >
+                            <img src="./resource-proyects/proyect-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">inuyasha:juego de plataformas</h5>
+                            <p class="card-text">el juego consiste en guiar a inuyasha venciendo a sus enemigos hasta llegar al jefe final, su hermano.</p>
+                            <a href="https://github.com/macachana/Inuyasha-Juego-de-plataformas.git" class="btn btn-primary stretched-link">ir al proyecto en github</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card" style="width: 30rem;">
+                            <img src="./resource-proyects/proyect-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">aplicacion de registro de animales</h5>
+                              <p class="card-text">un sistema de registro que utiliza listas json y xml y base de datos</p>
+                              <a href="https://github.com/macachana/app-registro-de-animales.git" class="btn btn-primary stretched-link">ir al proyecto en github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="seccion-contacto" id="seccionContacto">
+            <div class="texto-seccion-contacto">
+                <h1>CONTACTO</h1>
+            </div>
+            <div class="row label-texto-general">
+                <div class="col texto-comentario">
+                    <textarea id="floatingTextarea2" rows="11" cols="90"></textarea>
+                </div>
+                <div class="col label-informacion">
+                    <h3>Nombre:</h3>
+                    <input type="text" class="form-control" placeholder="ingrese su nombre">
+                    <h3>Apellido:</h3>
+                    <input type="text" class="form-control" placeholder="ingrese su apellido">
+                    <h3>Correo electronico:</h3>
+                    <form class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+                        <label for="floatingInputValue">ingrese su correo electronico</label>
+                    </form>
+                </div>
+            </div>
+            <div class="boton-contacto">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <a>© 2024 Macarena Chanampa by macachana. All Rights Reserved.</a>
+    </footer>
+</body>
+</html>

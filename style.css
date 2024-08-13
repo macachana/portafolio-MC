@@ -1,0 +1,125 @@
+
+body{
+    background-color: #3A083E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.texto-seccion-sobre-mi
+{
+    color:white;
+    text-align:left;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    margin-left: 0%;
+}
+
+.nav-link
+{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen
+{
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+div.menu{
+    margin-left: 20%;
+}
+
+.seccion-sobre-mi
+{
+    color: white;
+    text-align: center;
+    margin-top:10%;
+}
+
+.imagen-sobre-mi
+{
+    margin-top:5%;
+}
+.seccion-educacion
+{
+    color:white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.educacion-completa
+{
+    margin-top:5%;
+}
+
+.seccion-habilidades
+{
+    color:white;
+    text-align:center;
+    margin-top: 10%;
+}
+
+.habilidades-lenguajes
+{
+    margin-top: 5%;
+}
+
+.proyectos-general
+{
+    color:white;
+    text-align:center;
+    margin-top: 10%;
+    margin-left:8%;
+}
+
+.texto-seccion-proyectos
+{
+    text-align: center;
+    color:white;
+    margin-top:10%;
+}
+
+.seccion-proyectos-dos
+{
+    margin-top:5%;
+}
+
+.texto-seccion-contacto
+{
+    color:white;
+    text-align:center;
+    margin-top:10%;
+}
+
+.label-informacion
+{
+    margin-right: 5%;
+    color:white;
+    text-align: left;
+}
+
+.label-texto-general
+{
+    margin-top:5%;
+}
+
+textarea
+{
+    margin-left:3%;
+    margin-right: 5%;
+    resize:none;
+}
+
+.boton-contacto
+{
+    text-align: center;
+    margin-top:3%;
+    margin-bottom:5%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
