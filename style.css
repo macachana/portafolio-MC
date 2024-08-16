@@ -90,6 +90,42 @@ body{
 {
     background:black;
     border-radius: 10%;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.boton-email:hover{
+    border-radius:10%;
+    box-shadow: 0 15px 15px 0 #000000,0 15px 15px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+.boton-cv
+{
+    background-color: black;
+    border-radius:10%;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.boton-cv:hover{
+    border-radius: 10%;
+    box-shadow: 0 15px 15px 0 #000000,0 15px 15px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+#link-cv
+{
+  color:white;
+  font-size: 25px;
+  text-decoration: none;
+  font-family:'Times New Roman', Times, serif;
 }
 
 #link-email
@@ -128,7 +164,11 @@ body{
 {
     background-image: url("./resource_backgrounds/background_3.png");
     background-size:cover;
-    margin:25%;
+}
+
+.educacion-completa
+{
+  margin:25%;
 }
 
 #titulo-educacion
@@ -207,9 +247,10 @@ body{
     justify-content: space-between;
 }
 
-.habilidades-lenguajes div
+.habilidad
 {
-    margin:3%;
+    margin:2%;
+    padding:1%;
     background-color: #000000cc;
     border-radius: 5%;
 }
