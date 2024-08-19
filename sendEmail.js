@@ -14,8 +14,8 @@ async function handleSendEmail(event) {
     });
 
     if (response.ok) {
-        this.reset();
         alert('Mensaje enviado');
+        this.reset();
     }else{
         alert('Error al enviar el mensaje');
     }

@@ -190,22 +190,22 @@ body{
 .box::before{
     content: '';
     position:absolute;
-    width:5px;
+    width:10px;
     height:100%;
-    background: rgb(255, 255, 255);
-    left:-15px;
+    background: rgb(155, 172, 0);
+    left:-20px;
     top:10px;
 }
 
 .box::after{
     content: '';
-    width: 20px;
-    height:20px;
+    width: 25px;
+    height:25px;
     border-radius: 50%;
     position: absolute;
     margin:auto;
-    background: rgb(255, 255, 255);
-    left:-23px;
+    background: rgb(155, 172, 0);
+    left:-28px;
     top:5px;
 }
 
