@@ -20,7 +20,7 @@ async function handleSendEmail(event) {
             position:"top",
             title:"Listo", 
             text:"El mensaje a sido enviado", 
-            icon:"success"
+            icon:"success",
         });
     }else{
         swal.fire({
