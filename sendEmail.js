@@ -13,11 +13,22 @@ async function handleSendEmail(event) {
         }
     });
 
-    if (response.ok) {
-        alert('Mensaje enviado');
+    if(response.ok)
+    {
         this.reset();
+        swal.fire({
+            position:"top",
+            title:"Listo", 
+            text:"El mensaje a sido enviado", 
+            icon:"success"
+        });
     }else{
-        alert('Error al enviar el mensaje');
+        swal.fire({
+            position:"top",
+            title:"Error",
+            text:"Hubo un error al intentar enviar el mensaje",
+            icon:"error"
+        });
     }
 }
 
