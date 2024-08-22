@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Macarena</title>
+    <link rel="icon" href="../icons/icono-principal.ico" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    
+    <link href="../style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid" id="menuCompleto">
+                <a class="navbar-brand" id="nombre-sm" style="color: rgb(255, 255, 255);">Macarena Chanampa</a>
+                <button style="background-color:white; color:black;" class="navbar-toggler boton-sandwich" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuNavbar">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionSobreMi">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionEducacion">EDUCATION</a>
+                        </li>        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experienciaLaboral">WORK EXPERIENCE</a>
+                        </li>                
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionHabilidades">SKILLS</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionProyectos">PROYECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccionContacto">CONTACT</a>
+                        </li>
+                        <button class="btn-idioma" id="boton-idioma"><img src="../icons/icon-espaniol.png" id="img-boton-idiomas" /> SPANISH</button>
+                        <ul class="row items-redes-sociales">
+                            <li class="col">
+                                <a class="red-social" href="https://www.linkedin.com/in/maca-chanampa/"><img src="../icons/linkedin.png" alt="enlace a linkedin"/></a>
+                            </li>
+                            <li class="col">
+                                <a class="red-social" href="https://github.com/macachana"><img src="../icons/github_2.png" alt="enlace a github"/></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <!-- SECCION PRESENTACION-->
+        <section>
+            <div class="seccion-presentacion" id="seccion-presentacion">
+                <div class="col imagen animated bounceInLeft">
+                    <img src="../resource/fotoCV.png" />
+                </div>
+                <div class="col texto-seccion-sobre-mi" data-aos="fade-left">
+                    <h1 class="text-sm">Student of the University Technician in programming at the UTN Avellaneda Regional Faculty</h1>
+                    <div class="fila-email-cv">
+                        <button class="boton-email">
+                            <a href="mailto:macarena.lani@gmail.com?" id="link-email" class="col"><span><img src="../icons/e-mail.png" />Contact me</span></a>
+                        </button>
+                        <button class="boton-cv">
+                            <a href="https://drive.google.com/file/d/1ASHrQ1vXo_5LNrMVAgcYK5lTO7GG-yBT/view?usp=sharing" id="link-cv"><span>Dowload CV</span></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION SOBRE MÍ-->
+        <section>
+            <div id="seccionSobreMi">
+                <h1 class="titulo-sm" data-aos="zoom-in-up">ABOUT ME</h1>
+                <h3 class="texto-sobre-mi" data-aos="fade-up">Since I was little I have looked for solutions to everyday life problems and that is why 
+                    I am passionate about programming creative and innovative solutions to different types of problems. I stay updated on 
+                    the latest technologies and trends that emerge every day. In this portfolio you will find projects that I have done 
+                    along with the subjects of my degree, which helped me grow even more. If you are looking for a committed and motivated 
+                    programmer, who loves to program, <a href="#seccionContacto" style="text-decoration: none;">CONTACT ME!</a></h3>
+            </div>
+        </section>
+
+        <!-- SECCION EDUCACION-->
+        <section>
+            <div class="seccion-educacion" id="seccionEducacion">
+                <div class="educacion-completa">
+                    <h1 id="titulo-educacion" data-aos="zoom-in-up">EDUCATION</h1>
+                    <div data-aos="fade-up-right">
+                        <div class="educacion-carrera" id="columna-educacion">
+                            <div class="box">
+                                <h3>"University degree in programming"</h3>
+                                <h5>UTN FRA</h5>
+                                <h5>agosto 2023 - now</h5>
+                                <h5>first year completed</h5>
+                            </div>
+                            <div class="box">
+                                <h3>"Programming 4.0"</h3>
+                                <h5>ULP - San luis</h5>
+                                <h5>february 2023 - octuber 2023</h5>
+                                <h5>stage 1 and 2 completed</h5>
+                            </div>
+                            <div class="box">
+                                <h3>"I can programming"</h3>
+                                <h5>Junior archievement</h5>
+                                <h5>June 2023 - july 2023</h5>
+                                <h5>completed</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SECCION EXPERIENCIA LABORAL-->
+        <section>
+            <div class="seccion-exp-laboral" id="experienciaLaboral">
+                <h1 class="titulo-exp-laboral" data-aos="zoom-in-up">WORK EXPERIENCE</h1>
+                <h4 class="texto-exp-laboral" data-aos="fade-up-right">Although I have no formal work experience, 
+                    I am highly motivated to apply the skills and knowledge acquired through my studies and personal 
+                    projects. I want to tell you that in programming subjects 1 I learned programming concepts through 
+                    the creation of two games created with Python and then in programming subject 2 I learned concepts 
+                    of OOP (object-oriented programming) with C# creating a complete system based SQL data and file 
+                    management I am committed to continuing to learn and grow in a professional environment, contributing 
+                    with my technical skills and creativity.</h4>
+            </div>
+        </section>
+
+        <!-- SECCION HABILIDADES-->
+        <section>
+            <div class="seccion-habilidades" id="seccionHabilidades">
+                <h1 class="titulo-habilidades" data-aos="zoom-in-up">SKILLS</h1>
+                <div class="habilidades-lenguajes" data-aos="zoom-in-up">
+                    <div class="habilidad">
+                        <img src="../icons/logo_css.png"/>
+                        <h3>css 3</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/logo_html.png"/>
+                        <h3>html 5</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/logo_javascript.png"/>
+                        <h3>javascript</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/logo_bootstrap.png"/>
+                        <h3>bootstrap</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/logo_csharp.png"/>
+                        <h3>C sharp</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/icons8-git-48.png"/>
+                        <h3>git</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/icons8-logotipo-de-java-coffee-cup-48.png"/>
+                        <h3>java</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/icons8-python-48.png"/>
+                        <h3>pithon</h3>
+                    </div>
+                    <div class="habilidad">
+                        <img src="../icons/pygame_logo3.png"/>
+                        <h3>pygame</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PROYECTOS-->
+        <section>
+            <div class="seccion-proyectos" id="seccionProyectos">
+                <h1 class="titulo-proyectos" data-aos="zoom-in-up">PROYECTS</h1>
+                <div class="proyectos-general">
+            
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-bg-light mb-3">
+                            <img src="../resource-proyects/proyect-1.png" class="card-img-top imagen-proyecto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PLANT´S AND FLOWER´S</h5>
+                                <p class="card-text texto-cartas">done together with the "I can program" course, for a plant company</p>
+                                <ul style="list-style: none;">
+                                    <img src="../icons/logo_html.png"/>
+                                    <img src="../icons/logo_css.png"/>
+                                    <img src="../icons/logo_bootstrap.png"/>
+                                </ul>
+                                <a href="https://github.com/macachana/Plantas-y-Flores.git" class="btn btn-info">go to the proyect on github</a>
+                                <a href="https://miprimersitioweb.org.ar/proyectos/nube/chanampa_macarena/" class="btn btn-info">go to the page web</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-bg-light mb-3">
+                            <img src="../resource-proyects/proyect-2.png" class="card-img-top imagen-proyecto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PLANT´S AND FLOWER´S : PROVINCES</h5>
+                                <p class="card-text texto-cartas">The objective is to inform about the important plants of Argentina</p>
+                                <ul style="list-style: none;">
+                                    <img src="../icons/logo_html.png"/>
+                                    <img src="../icons/logo_css.png"/>
+                                    <img src="../icons/logo_bootstrap.png"/>
+                                </ul>
+                                <a href="https://github.com/macachana/Plantas-y-Flores.git" class="btn btn-info">go to the proyect on github</a>
+                                <a href="https://macachana.github.io/Plantas-y-Flores-Provincias/" class="btn btn-info">go to the page web</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-bg-light mb-3">
+                            <img id="imagen-proyecto" src="../resource-proyects/proyect-3.png" class="card-img-top imagen-proyecto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">FIND THE WORD</h5>
+                                <p class="card-text texto-cartas">is a game that consists of putting together 15 words before time runs out. An interactive word search game, with different levels of difficulty.</p>
+                                <ul style="list-style: none;">
+                                    <img src="../icons/icons8-python-48.png"/>
+                                    <img src="../icons/pygame_logo3.png"/>
+                                </ul>
+                                <a href="https://github.com/macachana/Descubre_palabras_UTN.git" class="btn btn-info">go to the proyect on github</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-bg-light mb-3">
+                            <img id="imagen-proyecto" src="../resource-proyects/proyect-4.png" class="card-img-top imagen-proyecto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">INUYASHA : GAME OF PLATFORMS</h5>
+                                <p class="card-text texto-cartas">The game consists of guiding Inuyasha defeating his enemies until he reaches the final 
+                                    boss, his brother. A platform game inspired by Inuyasha, developing the logic of the game and the levels. 
+                                    I used python to implement the mechanics and animations of the game</p>
+                                <ul style="list-style: none;">
+                                    <img src="../icons/icons8-python-48.png"/>
+                                    <img src="../icons/pygame_logo3.png"/>
+                                </ul>
+                                <a href="https://github.com/macachana/Inuyasha-Juego-de-plataformas.git" class="btn btn-info">go to the proyect on github</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card text-bg-light mb-3">
+                            <img id="imagen-proyecto" src="../resource-proyects/proyect-5.png" class="card-img-top imagen-proyecto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ANIMAL REGISTRATION APPLICATION</h5>
+                                <p class="card-text texto-cartas">I developed a comprehensive system for animal management in a shelter. I used SQL for the database and JSON/XML for data import and export.</p>
+                                <img class="row" src="../icons/logo_csharp.png" style="margin:5%;"/>
+                                <a href="https://github.com/macachana/app-registro-de-animales.git" class="btn btn-info">go to the proyect on github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CONTACTO-->
+        <section id="seccionContacto">
+            <div class="container">
+                <h1 class="mt-3 text-center" data-aos="zoom-in-up">Contact</h1>
+                <form id="formulario" data-aos="fade-up-right">
+                        <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="subject"
+                            placeholder="Subject"
+                            name="subject:"
+                        />
+                        </div>
+                        <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Name"
+                            name="name:"
+                        />
+                        </div>
+                        <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="email"
+                            placeholder="E-mail"
+                            name="E-mail:"
+                        />
+                        </div>
+                        <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea
+                            class="form-control"
+                            id="message"
+                            rows="3"
+                        ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- SECCION BOTON TOP -->
+        <section>
+            <div class="go-top-container">
+                <div class="go-top-buttom">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a>© 2024 Macarena Chanampa by macachana. All Rights Reserved.</a>
+    </footer>
+
+    <script src="../btn-top.js"></script>
+    <script src="../btn-cambio-idioma.js"></script>
+    <script src="../sendEmail.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">AOS.init();</script>
+</body>
+</html>

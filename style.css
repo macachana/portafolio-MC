@@ -10,14 +10,12 @@ body{
 }
 
 #menuCompleto{
-    display:grid;
     grid-template-columns: 1fr auto;
-    align-items: center;
     width:100%;
 }
 
 #menuNavbar li a{
-    font-size: 20px;
+    font-size: 14px;
     color:white;
     font-weight: 400;
     transition:0.3s;
@@ -26,21 +24,27 @@ body{
 #menuNavbar li a:hover,
 #menuNavbar li a.active
 {   
-    font-size:18px;
+    font-size:12px;
     color:rgb(116, 0, 106);
 }
+
 .items-redes-sociales
 {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
     list-style: none;
+    margin-top:7px;
 }
 
 .nav-link
 {
     color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-item{
+    margin-top:9px;
 }
 
 .red-social
@@ -57,6 +61,16 @@ body{
     -moz-transform:translate(0px,5px);
 }
 
+.btn-idioma{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding:5px;
+    margin:5px;
+    background-color: #9c077c;
+    color:white;
+    width:145px;
+}
 
 /*seccion presentacion*/
 .seccion-presentacion
@@ -71,14 +85,16 @@ body{
 
 .texto-seccion-sobre-mi
 {
-    color:white;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right:0%;
-    font-family: Arial, sans-serif;
 }
 
-
+.text-sm{
+    color:white;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    background-color: #00000028;
+    margin:5px;
+}
 .imagen
 {
     text-align :center;
@@ -89,7 +105,7 @@ body{
 .boton-email
 {
     background:black;
-    border-radius: 10%;
+    border-radius: 6px;
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
@@ -106,7 +122,7 @@ body{
 .boton-cv
 {
     background-color: black;
-    border-radius:10%;
+    border-radius:6px;
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
@@ -135,7 +151,6 @@ body{
     text-decoration: none;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 /*seccion sobre mi*/
 #seccionSobreMi
 {

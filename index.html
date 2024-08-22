@@ -51,6 +51,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#seccionContacto">CONTACTO</a>
                         </li>
+                        <button class="btn-idioma" id="boton-idioma"><img src="./icons/icon-ingles.png" id="img-boton-idiomas" /> INGLES</button>
                         <ul class="row items-redes-sociales">
                             <li class="col">
                                 <a class="red-social" href="https://www.linkedin.com/in/maca-chanampa/"><img src="./icons/linkedin.png" alt="enlace a linkedin"/></a>
@@ -74,12 +75,14 @@
                 </div>
                 <div class="col texto-seccion-sobre-mi" data-aos="fade-left">
                     <h1 class="text-sm">Estudiante de la Tecnicatura Universitaria en programación de la UTN Facultad Regional Avellaneda</h1>
-                    <button class="boton-email">
-                        <a href="mailto:macarena.lani@gmail.com?" id="link-email"><img src="./icons/e-mail.png" />Contactar</a>
-                    </button>
-                    <button class="boton-cv">
-                        <a href="https://drive.google.com/file/d/1ASHrQ1vXo_5LNrMVAgcYK5lTO7GG-yBT/view?usp=sharing" id="link-cv">Descargar CV</a>
-                    </button>
+                    <div class="fila-email-cv">
+                        <button class="boton-email">
+                            <a href="mailto:macarena.lani@gmail.com?" id="link-email" class="col"><span><img src="./icons/e-mail.png" />Contactar</span></a>
+                        </button>
+                        <button class="boton-cv">
+                            <a href="https://drive.google.com/file/d/1ASHrQ1vXo_5LNrMVAgcYK5lTO7GG-yBT/view?usp=sharing" id="link-cv"><span>Descargar CV</span></a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -90,7 +93,7 @@
                 <h1 class="titulo-sm" data-aos="zoom-in-up">SOBRE MÍ</h1>
                 <h3 class="texto-sobre-mi" data-aos="fade-up">Desde pequeña busque <spam style="color:yellow">soluciones a problemas de la vida cotidiana</spam> y por eso <spma style="color:red">me apasiona programar</spma> soluciones creativas e innovadoras a distintos tipos de problemas.
                 Me mantengo actualizada en las <spam style="color:yellow">últimas tecnologias y tendencias que surgen dia a dia.</spam>
-                En este portafolio encontraras proyectos que he realizado junto con las materias de mi carrera, que me ayudaron a <spam>crecer aun más.</spam> Si buscas <spam style="color:yellow">una programadora comprometida y motivada, que le encanta programar</spam>, ¡CONTÁCTAME!</h3>
+                En este portafolio encontraras proyectos que he realizado junto con las materias de mi carrera, que me ayudaron a <spam>crecer aun más.</spam> Si buscas <spam style="color:yellow">una programadora comprometida y motivada, que le encanta programar</spam>, <a href="#seccionContacto" style="text-decoration: none;">¡CONTÁCTAME!</a></h3>
             </div>
         </section>
 
@@ -334,6 +337,7 @@
     </footer>
 
     <script src="./btn-top.js"></script>
+    <script src="./btn-cambio-idioma.js"></script>
     <script src="./sendEmail.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript">AOS.init();</script>
