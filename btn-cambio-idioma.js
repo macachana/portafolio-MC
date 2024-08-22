@@ -4,10 +4,11 @@ let iconoEspaniol = location.origin + '/icons/icon-espaniol.png';
 let iconoIngles = location.origin + '/icons/icon-ingles.png';
 
 boton.addEventListener('click', function() {
+    console.log(location.origin);
     if(imgBotonIdioma.src == iconoIngles)
     {
         console.log("estas en la pagina en ingles");
-        location.href = 'ing/index.html';
+        //location.href = 'ing/index.html';
     }
     else if(imgBotonIdioma.src == iconoEspaniol){
         console.log("estas en la pagina en español");
