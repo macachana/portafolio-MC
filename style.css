@@ -4,20 +4,31 @@ html{
 
 body{
     background: rgb(70, 14, 45);
-    background: radial-gradient(circle, rgba(230,86,166,1) 4%, rgba(58,8,62,1) 55%, rgba(50,7,54,1) 100%);
+    background: radial-gradient(circle, rgba(230, 86, 166, 1) 4%, rgba(58, 8, 62, 1) 55%, rgba(50, 7, 54, 1) 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    margin-left:70px;
+    margin-right:70px;
 }
 
 #menuCompleto{
-    grid-template-columns: 1fr auto;
     width:100%;
+}
+
+#menuNavbar{
+    width:100%;
+    display:flex;
+    place-content: end;
+}
+
+#menuNavbar li{
+    display:flex;
+    place-items: center;
 }
 
 #menuNavbar li a{
     font-size: 14px;
     color:white;
-    font-weight: 400;
     transition:0.3s;
 }
 
@@ -31,20 +42,20 @@ body{
 .items-redes-sociales
 {
     display:flex;
+    place-items:center;
     flex-wrap:wrap;
-    justify-content: space-between;
     list-style: none;
-    margin-top:7px;
+}
+
+#nombre-sm{
+    display:flex;
+    place-content: center;
 }
 
 .nav-link
 {
     color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.nav-item{
-    margin-top:9px;
 }
 
 .red-social
@@ -75,26 +86,27 @@ body{
 /*seccion presentacion*/
 .seccion-presentacion
 {
-    background-image: url("./resource_backgrounds/background_1.png");
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top:5%;
+    margin-top:10%;
 }
 
 .texto-seccion-sobre-mi
 {
+    text-align: center;
     margin-right:0%;
+    color:white;
 }
 
 .text-sm{
-    color:white;
     font-style: italic;
     font-family: Arial, sans-serif;
     background-color: #00000028;
     margin:5px;
 }
+
 .imagen
 {
     text-align :center;
@@ -154,7 +166,6 @@ body{
 /*seccion sobre mi*/
 #seccionSobreMi
 {
-    background:url("./resource_backgrounds/background_2.png");
     background-size: cover;    
     color:white;
 }
@@ -176,7 +187,6 @@ body{
 /*seccion educacion*/
 .seccion-educacion
 {
-    background-image: url("./resource_backgrounds/background_3.png");
     background-size:cover;
 }
 
@@ -281,7 +291,6 @@ body{
 
 .seccion-proyectos
 {
-    background-image: url("./resource_backgrounds/background_4.png");
     background-size:cover;
 }
 
@@ -309,6 +318,20 @@ body{
     font-size: 20px;
     font-weight: 500;
     z-index: 100;
+}
+
+#imagen-proyecto{
+    padding:10%;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+#imagen-proyecto:hover{
+    padding:0%;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
 }
 
 /*seccion contacto*/
