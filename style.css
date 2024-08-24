@@ -7,8 +7,20 @@ body{
     background: radial-gradient(circle, rgba(230, 86, 166, 1) 4%, rgba(58, 8, 62, 1) 55%, rgba(50, 7, 54, 1) 100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    margin-left:70px;
-    margin-right:70px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.titulo
+{
+    text-align: center;
+    color:white;
+    margin-top:15%;
+    padding-top: 10%;
+}
+
+section{
+    padding-top:10%;
 }
 
 #menuCompleto{
@@ -86,7 +98,6 @@ body{
 /*seccion presentacion*/
 .seccion-presentacion
 {
-    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -109,9 +120,8 @@ body{
 
 .imagen
 {
-    text-align :center;
-    display: inline-block;
-    margin-left:0%;
+    display: flex;
+    place-content: center;
 }
 
 .boton-email
@@ -170,14 +180,6 @@ body{
     color:white;
 }
 
-.titulo-sm
-{
-    color:white;
-    text-align: center;
-    margin-top:15%;
-    padding-top: 10%;
-}
-
 .texto-sobre-mi{
     text-align: center;
 }
@@ -194,14 +196,6 @@ body{
 {
   margin:25%;
   padding-bottom: 10%;
-}
-
-#titulo-educacion
-{
-    color:white;
-    text-align: center;
-    margin-top:15%;
-    padding-top:10%;
 }
 
 .box
@@ -234,15 +228,6 @@ body{
 }
 
 /*seccion experiencia laboral*/
-.titulo-exp-laboral
-{
-    color:white;
-    display: grid;
-    place-content: center;
-    margin-top:15%;
-    padding-top:10%;
-}
-
 .texto-exp-laboral
 {
     color:white;
@@ -250,13 +235,6 @@ body{
 }
 
 /*seccion habilidades*/
-
-.titulo-habilidades
-{
-    margin-top:15%;
-    padding-top:10%;
-}
-
 .seccion-habilidades
 {
     background-size: cover;
@@ -281,14 +259,6 @@ body{
 }
 
 /*seccion proyectos*/
-.titulo-proyectos
-{
-    text-align: center;
-    color:white;
-    margin-top:15%;
-    padding-top:8%;
-}
-
 .seccion-proyectos
 {
     background-size:cover;
@@ -427,108 +397,3 @@ footer{
         padding: 0.5em;
     }
 }
-@keyframes show{
-    from
-    {
-        opacity: 0;
-        scale: 25%;
-    }
-    to
-    {
-        opacity:1;
-        scale:100%;
-    }
-}
-
-@keyframes show2{
-    from
-    {
-        opacity: 1;
-        scale: 80%;
-    }
-    to
-    {
-        opacity:1;
-        scale:100%;
-    }
-}
-
-@-webkit-keyframes bounceInLeft {
-    from, 60%, 75%, 90%, to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(-3000px, 0, 0);
-      transform: translate3d(-3000px, 0, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(25px, 0, 0);
-      transform: translate3d(25px, 0, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(-10px, 0, 0);
-      transform: translate3d(-10px, 0, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes bounceInLeft {
-    from, 60%, 75%, 90%, to {
-      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    }
-  
-    0% {
-      opacity: 0;
-      -webkit-transform: translate3d(-3000px, 0, 0);
-      transform: translate3d(-3000px, 0, 0);
-    }
-  
-    60% {
-      opacity: 1;
-      -webkit-transform: translate3d(25px, 0, 0);
-      transform: translate3d(25px, 0, 0);
-    }
-  
-    75% {
-      -webkit-transform: translate3d(-10px, 0, 0);
-      transform: translate3d(-10px, 0, 0);
-    }
-  
-    90% {
-      -webkit-transform: translate3d(5px, 0, 0);
-      transform: translate3d(5px, 0, 0);
-    }
-  
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .bounceInLeft {
-    -webkit-animation-name: bounceInLeft;
-    animation-name: bounceInLeft;
-  }
-  
-  .animated {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-  }
