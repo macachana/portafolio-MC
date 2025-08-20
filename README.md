@@ -1,5 +1,5 @@
-## Hola , soy Macarena Nicole Chanampa, tengo 20 años.
-## Curso el segundo año de la tecnicatura universitaria en programacion
+## Hola , soy Macarena Nicole Chanampa, tengo 21 años.
+## Graduada de la tecnicatura universitaria en programacion
 ## en este portafolio extiendo más mi presentacion.
 
 ## Pagina web
